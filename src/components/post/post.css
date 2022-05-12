@@ -1,0 +1,55 @@
+.thought{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    border-top: 1px solid rgb(100, 100, 100);
+    padding: 0.5rem 0;
+    width: 100%;
+    color: black;
+}
+
+.thought h3{
+    font-size: 1.2rem;
+    margin-bottom: 0; 
+    margin-left: 1rem !important;
+}
+
+.thought p{
+    margin: 1rem !important;
+    text-align: left;
+}
+
+.thought img{
+    width: 4rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.thought .thought-page{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.thought-page h3{
+    font-size: 1.2rem;
+    margin: 0;
+    max-width: 90%;
+}
+
+
+
+.thought button{
+    margin-right: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    flex-direction: column;
+    border: none;
+    font-size: 1.1rem;
+}

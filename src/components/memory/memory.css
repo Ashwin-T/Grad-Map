@@ -1,0 +1,59 @@
+.memory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    border-top: 1px solid rgb(100, 100, 100);
+}
+
+.memory > img{
+    width: 100%;
+}
+.memory-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1vh 0;
+}
+.memory-header img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.memory-header div{
+    display: flex;
+}
+
+.memory-header p{
+    margin: auto 1rem;
+}
+
+.memory-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1vh 0;
+}
+
+.memory-bottom p{
+    margin-left: 1.25rem;
+}
+
+.memory-bottom button{
+    margin-right: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    flex-direction: column;
+    border: none;
+    font-size: 1.1rem;
+}

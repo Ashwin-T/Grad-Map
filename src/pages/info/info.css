@@ -1,0 +1,26 @@
+
+.info-container{
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.info-container h2{
+   font-weight: normal;
+   text-align: center;
+   margin: auto 1rem;
+   margin-bottom: 0.5rem;
+}
+
+.info-container p{
+    text-align: center;
+    margin: auto 1rem;
+    position: fixed;
+    bottom: 5rem;
+    width: 100%;
+}

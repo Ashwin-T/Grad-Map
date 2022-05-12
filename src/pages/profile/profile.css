@@ -1,0 +1,46 @@
+.profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.profile-top{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: calc(100% - 20px);
+    padding: 25px 10px;
+    background-color: white;
+}
+
+
+.profile-top img{
+    border-radius: 50%;
+    margin: 0 1rem;    
+}
+
+.profile-container .major-city-college{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.follow-btn{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 16px;
+    font-size: 1.2rem;
+}
+
+.unfollow-btn{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 16px;
+    font-size: 1.2rem;
+}

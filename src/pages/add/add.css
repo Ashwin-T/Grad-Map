@@ -1,0 +1,55 @@
+.top-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: calc(100% - 40px);
+}
+
+.top-area a{
+    color: black;
+    text-decoration: none;
+}
+
+.add-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.add-container textarea{
+    width: calc(100vw - 20px);
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: 'Segoe UI' !important;
+}
+
+.memory-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.bottom-area img{
+    width: 100vw;
+    margin-top: 1rem;
+}
+
+.bottom-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}

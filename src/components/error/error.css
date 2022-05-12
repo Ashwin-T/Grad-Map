@@ -1,0 +1,13 @@
+.error-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid red;
+    color: red;
+    border-radius: 16px;
+}
+
+.error-container svg{
+    margin-right: 0.5rem;
+}

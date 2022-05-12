@@ -1,0 +1,53 @@
+.settings-container{
+    width: calc(100vw - 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.setup-feilds{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+}
+
+.indivisual-feild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.indivisual-feild h3{
+    font-size: 1.35rem;
+}
+
+.indivisual-feild input[type = "text"]{
+    padding: 15px 10px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-bottom: var(--border);
+}
+
+.indivisual-feild input[type = "text"]:focus{
+    outline: none;
+}
+
+.settings-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    margin-top: 10vh;
+}

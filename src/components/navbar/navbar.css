@@ -1,0 +1,78 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    width: calc(100% - 40px);
+    position: fixed;
+    bottom: 0;    
+    border-top: var(--border);
+    background-color: white;
+    z-index: 99;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav a .active{
+    color: black;
+    
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: calc(100% - 40px);
+    position: fixed;
+    top: 0;
+    border-bottom: var(--border);
+    background-color: white;
+}
+
+.topbar div svg{
+    margin-left: 1.25rem;
+}
+.add-popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    width: calc(50% - 40px);   
+    position: fixed;
+    bottom: 4rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 16px 16px 16px 0;
+    background-color: white;
+}
+.add-popup a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.add-popup > p{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 3px solid rgb(100, 100, 100); 
+    line-height: 0.1;
+    margin: 10px 20px; 
+}
+
+.add-popup > p > span{
+    background:#fff; 
+    padding:0 10px; 
+}
+.topbar h2{
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    padding: 0;
+}

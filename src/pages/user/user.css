@@ -1,0 +1,90 @@
+.delete-modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}   
+
+.yes-btn{
+    background-color: #ff5a5f;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+}
+
+.no-btn{
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+}
+
+.profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+
+.profile-top{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: calc(100% - 20px);
+    padding: 25px 10px;
+}
+
+
+.profile-top img{
+    border-radius: 50%;
+    margin: 0 1rem;    
+}
+
+.current-thoughts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.current-thoughts h3{
+    margin-left: 1rem;
+}
+
+.current-thoughts label{
+    margin-right: 1rem;
+}
+
+.profile-container .major-city-college{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.profile-container span img {
+    width: 100%;
+    margin: 0;
+}
+

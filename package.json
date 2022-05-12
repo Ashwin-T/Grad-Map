@@ -1,0 +1,30 @@
+{
+  "name": "grad-map",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "firebase deploy"
+  
+  },
+  "dependencies": {
+    "firebase": "^9.8.0",
+    "mapbox-gl": "^2.8.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-firebase-hooks": "^5.0.3",
+    "react-icons": "^4.3.1",
+    "react-map-gl": "^7.0.11",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "vite": "^2.9.7",
+    "vite-plugin-pwa": "^0.12.0"
+  }
+}

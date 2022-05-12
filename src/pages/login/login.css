@@ -1,0 +1,99 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;   
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.login-container button{
+    width: 75vw;
+    background-color: white;
+    border-radius: 16px;
+    border: none;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border: 1px solid black;
+}
+
+.login-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.login-box h1{
+    font-size: 4rem;
+    margin: 0 !important;
+    color: black;
+}
+
+.login-box p{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: white;
+    text-align: center;
+}
+
+.login-container > img{
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.35;
+    filter: blur(1px);
+}
+
+.login-container button img{
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.login-container .features-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    border-radius: 16px 16px 0 0;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.features-page::-webkit-scrollbar{
+    display: none;
+}
+
+.features-page::-webkit-scrollbar-thumb{
+    display: none;
+}
+
+.features-page h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.features-page svg{
+    margin-left: 0.5rem;
+}
